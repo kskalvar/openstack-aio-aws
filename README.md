@@ -2,8 +2,7 @@
 OpenStack Ansible AIO on AWS
 
 
-Quick Start Instructions
-
+Quick Start Instructions  
 readme.txt
 
 docs/
