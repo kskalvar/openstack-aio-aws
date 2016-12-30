@@ -23,6 +23,9 @@ cd /opt/openstack-ansible
 # reboot
 reboot
 
+# install git
+apt-get install -y git
+
 # install OpenStack AIO
 sudo -i
 cd  /opt/openstack-ansible
