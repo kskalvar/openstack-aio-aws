@@ -15,6 +15,9 @@ sudo -i
 apt-get update
 apt-get -y dist-upgrade
 
+# install git
+apt-get install -y git
+
 # Install OpenStack Ansible (AIO)
 cd /opt
 git clone https://git.openstack.org/openstack/openstack-ansible -b stable/mitaka
@@ -22,9 +25,6 @@ cd /opt/openstack-ansible
 
 # reboot
 reboot
-
-# install git
-apt-get install -y git
 
 # install OpenStack AIO
 sudo -i
