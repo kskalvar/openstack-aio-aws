@@ -32,7 +32,7 @@ scripts/bootstrap-ansible.sh
 scripts/bootstrap-aio.sh
 
 tmux
-time  scripts/run-playbooks.sh
+time scripts/run-playbooks.sh
 
 # example attaching to a container
 lxc-ls -f
