@@ -8,7 +8,7 @@ Absolute minimum server resources (currently used for gate checks):
 16 GB RAM
 80 GB free disk space on the root partition
 
-ubuntu trusty 14.04 ami-2d39803a (c3.2xlarge)
+ubuntu trusty 14.04 ami-2d39803a
 
 # Update ubuntu
 sudo -i
