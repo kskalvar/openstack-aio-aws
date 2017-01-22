@@ -20,7 +20,7 @@ apt-get install -y git
 
 # Install OpenStack Ansible (AIO)
 cd /opt
-git clone https://git.openstack.org/openstack/openstack-ansible -b stable/newton
+git clone https://git.openstack.org/openstack/openstack-ansible -b stable/mitaka
 
 # reboot
 reboot
