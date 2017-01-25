@@ -38,7 +38,7 @@ scripts/bootstrap-aio.sh
 tmux
 time scripts/run-playbooks.sh
 
-# example attaching to a container
+# example attaching to utility container
 lxc-ls -f
 lxc-attach -n aio1_utility_container-*
 
