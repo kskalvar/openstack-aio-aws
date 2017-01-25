@@ -38,8 +38,8 @@ tmux
 time scripts/run-playbooks.sh
 
 # example attaching to utility container
-lxc-ls -f
-lxc-attach -n aio1_utility_container-*
+lxc-ls 
+lxc-attach -n aio1_utility_container-<container id>
 
 # import image
 source /root/openrc
