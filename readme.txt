@@ -45,5 +45,5 @@ lxc-attach -n aio1_utility_container-*
 # import image
 source /root/openrc
 wget http://download.cirros-cloud.net/0.3.1/cirros-0.3.1-x86_64-disk.img 
-glance --os-image-api-version 1 image-create --name='cirros-0.3.1-x86_64'  --is-public true --container-format=bare --disk-format=qcow2 < cirros-0.3.1-x86_64-disk.img
+glance --os-image-api-version 1 image-create --name='cirros-0.3.1-x86_64' --is-public true --container-format=bare --disk-format=qcow2 < cirros-0.3.1-x86_64-disk.img
 
