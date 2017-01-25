@@ -2,7 +2,6 @@ OpenStack Ansible AIO on AWS
 Kirk S. Kalvar
 12/16/2016
 
-
 Absolute minimum server resources (currently used for gate checks):
 8 vCPU’s
 16 GB RAM
