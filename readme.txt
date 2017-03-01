@@ -34,6 +34,7 @@ cd /opt/openstack-ansible
 scripts/bootstrap-ansible.sh
 scripts/bootstrap-aio.sh
 
+# use tmux to install to protect against accidental disconnects
 tmux
 time scripts/run-playbooks.sh
 
